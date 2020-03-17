@@ -1,0 +1,7 @@
+
+LOAD DATA INFILE 'D:\ML Projects\Ecole\titanic.csv' 
+INTO TABLE discounts 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
